@@ -1,0 +1,11 @@
+{
+  "name": "slipqueue",
+  "version": "1.0.0",
+  "description": "A streaming queue that will process multiple promises in parallel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Mason <q@bitmage.net>",
+  "license": "MIT"
+}
