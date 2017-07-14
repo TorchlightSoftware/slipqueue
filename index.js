@@ -45,7 +45,7 @@ module.exports = function SlipQueue({max, debug}) {
     })
 
     if (this.inQueue < max && this.values.length < max) {
-      return []
+      return Promise.resolve()
     } else {
       this.blocker = new Deferred
       return this.blocker.promise
